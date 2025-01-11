@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="bg-darkBlue-mainBackground font-lexend">
+    <div
+      class="md:h-screen md:grid md:place-content-center justify-items-center p-8 lg:p-0"
+    >
+      <div class="md:max-w-4xl max-w-64">
+        <div
+          class="flex flex-col md:flex-row bg-darkBlue-cardBackground rounded-md overflow-hidden"
+        >
+          <div class="basis-1/2 order-2 md:order-1">
+            <div class="grid md:gap-12 gap-8 p-5 md:p-14">
+              <div class="grid md:gap-5 gap-2 text-center md:text-left">
+                <h4 class="text-neutral-white lg:text-3xl text-2xl">
+                  Get <span class="text-violet-accent">insights</span> that help
+                  your business grow.
+                </h4>
+                <p class="text-neutral-paragraph text-xs md:text-sm font-inter">
+                  Discover the benefits of data analytics and make better
+                  decisions regarding revenue, customer experience, and overall
+                  efficiency.
+                </p>
+              </div>
+              <div
+                class="flex flex-col md:flex-row gap-4 md:gap-0 justify-between text-center md:text-left"
+              >
+                <div>
+                  <h6 class="text-neutral-white text-xl md:text-2xl">10k+</h6>
+                  <span class="text-neutral-statHeading text-xs uppercase">
+                    companies
+                  </span>
+                </div>
+                <div>
+                  <h6 class="text-neutral-white text-xl md:text-2xl">314</h6>
+                  <span class="text-neutral-statHeading text-xs uppercase"
+                    >templates
+                  </span>
+                </div>
+                <div>
+                  <h6 class="text-neutral-white text-xl md:text-2xl">12M+</h6>
+                  <span class="text-neutral-statHeading text-xs uppercase">
+                    queries
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="basis-1/2 relative order-1 md:order-2">
+            <img
+              class="object-cover w-full h-full hidden md:block"
+              src="images/image-header-desktop.jpg"
+              alt=""
+            />
+            <img
+              class="md:hidden"
+              src="images/image-header-mobile.jpg"
+              alt=""
+            />
+            <div class="absolute inset-0 bg-violet-accent bg-opacity-70"></div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution text-white">
+        Challenge by
+        <a
+          class="text-purple-500"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="text-purple-500" href="#">Olusoyemi Timilehin</a>.
+      </div>
+    </div>
+  </body>
+</html>
